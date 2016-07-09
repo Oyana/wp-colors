@@ -6,7 +6,7 @@ function add_custom_admin_themes()
 	$suffix = is_rtl() ? '-rtl' : '';
  
 	wp_admin_css_color(
-		'forest-afternoon',
+		'theme-id',
 		__( 'Your theme name here' ),
 		PATH . "/css/theme-uri.css",
 		array( '#color1', '#color2', '#color3' )
