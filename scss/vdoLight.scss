@@ -1,5 +1,5 @@
 /**
- * Plugin Name: WordPress Admin Themes Blackboard
+ * Plugin Name: WordPress Admin Themes vdoLight
  * Plugin URI: 
  * Description: A little plugin to add your own color schemes to WordPress.
  * Version: 1.0
@@ -8,8 +8,8 @@
  * License: GNU3
  */
 
-$base-color: #363b3f;
-$highlight-color: #018A00;
-$notification-color: #01FF00;
+$base-color: #FFFFFF;
+$highlight-color: #FB9600;
+$notification-color: #B7C000;
 
 @import "_admin.scss";
