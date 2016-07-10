@@ -4,7 +4,6 @@ define( 'PATH', plugins_url( '', __FILE__ ) );
 function add_custom_admin_themes()
 {
 	$suffix = is_rtl() ? '-rtl' : '';
- 
 	wp_admin_css_color(
 		'theme-id',
 		__( 'Your theme name here' ),
